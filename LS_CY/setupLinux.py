@@ -5,8 +5,8 @@ import numpy as np
 
 extensions = [
     Extension(
-        name="LS_CY.LS_fast",
-        sources=["LS_CY/LS_fast.pyx"],
+        name="LS_fast",
+        sources=["LS_fast.pyx"],
         include_dirs=[np.get_include()],
         extra_compile_args=["-O3"],
     )
